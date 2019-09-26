@@ -1,0 +1,13 @@
+<h1> User list </h1>
+
+<table border="1" style="border-collapse:collapse">
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+  </tr>
+  <% for user in @users %>
+    <tr>
+      <td><%= link_to user.name, user_path(user) %></td><td><%= user.email %></td>
+    </tr>
+  <% end %>
+</table>

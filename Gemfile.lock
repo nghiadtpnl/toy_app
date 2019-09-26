@@ -43,7 +43,7 @@ GEM
       erubi (~> 1.4)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.1, >= 1.2.0)
-    activeadmin (2.2.0)
+    activeadmin (2.3.1)
       arbre (~> 1.2, >= 1.2.1)
       formtastic (~> 3.1)
       formtastic_i18n (~> 0.4)
@@ -297,6 +297,7 @@ PLATFORMS
 DEPENDENCIES
   active_material!
   activeadmin
+  bcrypt (~> 3.1.7)
   bootsnap (>= 1.4.2)
   bootstrap (~> 4.3.1)
   byebug
